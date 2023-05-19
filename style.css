@@ -5,9 +5,35 @@ html{
 body{
     background-color: #333;
     color: whitesmoke;
+}
+
+.cheader{
+    background-color: black;
+    padding: 1rem;
+    border-radius: 24px;
+}
+
+.mainbody{
     max-width: 90%;
     margin:0 auto;
     padding: 1rem;
-    border-left: 1px solid #eee;
-    border-right: 1px solid #eee;
+    border-radius: 16px;
+    background-color: #202020;
+}
+
+.foot{
+    background-color: black;
+    border-radius: 6px;
+    padding: 0.25rem;
+}
+
+img{
+    border-radius: 8px;
+}
+
+.about-class{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
 }
