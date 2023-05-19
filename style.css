@@ -29,9 +29,18 @@ body{
 
 img{
     border-radius: 8px;
+    float: left;
 }
 
 .about-class{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+
+.interests-and-skills{
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
