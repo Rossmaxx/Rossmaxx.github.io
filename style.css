@@ -19,6 +19,7 @@ body{
     padding: 1rem;
     border-radius: 16px;
     background-color: #202020;
+    padding-bottom: 520px; /* to accomodate the image at bottom */
 }
 
 .foot{
@@ -30,6 +31,7 @@ body{
 img{
     border-radius: 8px;
     float: left;
+    margin: 0;
 }
 
 .about-class{
@@ -38,7 +40,6 @@ img{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
 }
-
 
 .interests-and-skills{
     display: grid;
