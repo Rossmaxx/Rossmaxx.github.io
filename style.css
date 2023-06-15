@@ -6,13 +6,18 @@ body{
     background: linear-gradient(to top, rgb(50, 50, 221), rgb(25, 195, 25));
     background-attachment: fixed;
     color: whitesmoke;
-
+    padding: 0;
 }
 
 .cheader{
-    background-color: black;
+    background-image: url("images/background1.jpg");
+    background-attachment: fixed;
+    position: center;
+    background-size: cover;
+    border: 4px outset black;
     padding: 1rem;
     border-radius: 24px;
+    margin: 0;
 }
 
 .mainbody{
@@ -25,20 +30,29 @@ body{
     border-width: 2px;
     border-radius: 16px;
 
-    background-image: url("images/background1.jpg");
+    background-image: url("images/background2.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 
+    /*
+
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: #333;
+
+    */
 
     padding-bottom: 520px; /* to accomodate the image at bottom */
 }
 
 .foot{
-    background-color: black;
+    background-image: url("images/background1.jpg");
+    background-attachment: fixed;
+    position: center;
+    background-size: cover;
+
+    border: 4px outset black;
     border-radius: 6px;
     padding: 0.25rem;
 }
