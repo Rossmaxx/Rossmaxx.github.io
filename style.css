@@ -5,6 +5,7 @@ html{
 body{
     background-color: #333;
     color: whitesmoke;
+
 }
 
 .cheader{
@@ -17,6 +18,9 @@ body{
     max-width: 90%;
     margin:0 auto;
     padding: 1rem;
+    border: #eee;
+    border-style: outset;
+    border-width: 2px;
     border-radius: 16px;
     background-color: #202020;
     padding-bottom: 520px; /* to accomodate the image at bottom */
