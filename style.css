@@ -3,7 +3,8 @@ html{
 }
 
 body{
-    background-color: #333;
+    background: linear-gradient(to top, rgb(50, 50, 221), rgb(25, 195, 25));
+    background-attachment: fixed;
     color: whitesmoke;
 
 }
