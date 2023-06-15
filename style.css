@@ -23,7 +23,10 @@ body{
     border-style: outset;
     border-width: 2px;
     border-radius: 16px;
-    background-color: #202020;
+    background-image: url("images/background1.jpg");
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #333;
+
     padding-bottom: 520px; /* to accomodate the image at bottom */
 }
 
