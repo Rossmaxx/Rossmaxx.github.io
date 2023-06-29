@@ -83,8 +83,8 @@ a:hover{
 .about-class{
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
 }
 
 .interests-and-skills{
@@ -94,8 +94,15 @@ a:hover{
     column-gap: 5px;
 }
 
+.socials-links{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    column-gap: auto;
+}
+
 @media all and (max-width: 1200px) {
-    .portrait-image{visibility:hidden;}
+    .portrait-image{display: none;}
     .me-para{margin-left: 0;}
     p.me-para{font-size: 16px;}
     .classphoto{
