@@ -9,8 +9,25 @@ body{
     padding: 0;
 }
 
+button{
+    background-color: #303030;
+    padding: 5px 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid #eee;
+}
+
 a{
     color: skyblue;
+}
+
+a:visited{
+    color: aquamarine;
+}
+
+a:hover{
+    color: cadetblue;
 }
 
 .cheader{
