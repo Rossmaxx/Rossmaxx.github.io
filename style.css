@@ -94,8 +94,12 @@ a:hover{
     column-gap: 5px;
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 1200px) {
     .portrait-image{visibility:hidden;}
     .me-para{margin-left: 0;}
+    .classphoto{
+        width: 90%;
+        object-fit: contain;
+    }
     
 }
