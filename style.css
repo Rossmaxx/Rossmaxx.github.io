@@ -101,6 +101,10 @@ a:hover{
     column-gap: auto;
 }
 
+ul.socials-list {
+    list-style-type: none;
+}
+
 @media all and (max-width: 1200px) {
     .portrait-image{display: none;}
     .me-para{margin-left: 0;}
