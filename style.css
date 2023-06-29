@@ -97,9 +97,11 @@ a:hover{
 @media all and (max-width: 1200px) {
     .portrait-image{visibility:hidden;}
     .me-para{margin-left: 0;}
+    p.me-para{font-size: 16px;}
     .classphoto{
         width: 90%;
         object-fit: contain;
     }
+    button{font-size: 24px;}
     
 }
