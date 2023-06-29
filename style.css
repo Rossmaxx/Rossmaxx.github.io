@@ -9,6 +9,10 @@ body{
     padding: 0;
 }
 
+a{
+    color: skyblue;
+}
+
 .cheader{
     background-image: url("images/background1.jpg");
     background-attachment: fixed;
@@ -35,15 +39,6 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-
-    /*
-
-    -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: #333;
-
-    */
-
-    padding-bottom: 520px; /* to accomodate the image at bottom */
 }
 
 .foot{
@@ -57,10 +52,15 @@ body{
     padding: 0.25rem;
 }
 
-img{
+.portrait-image{
     border-radius: 8px;
     float: left;
     margin: 0;
+}
+
+.classphoto{
+    position:static;
+    border-radius: 20px;
 }
 
 .about-class{
@@ -75,8 +75,4 @@ img{
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
-}
-
-a{
-    color: skyblue;
 }
