@@ -22,6 +22,10 @@ a{
     color: skyblue;
 }
 
+i{
+    color: whitesmoke;
+}
+
 a:visited{
     color: aquamarine;
 }
