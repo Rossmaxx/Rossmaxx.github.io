@@ -19,6 +19,10 @@ button{
     border: 1px solid #eee;
 }
 
+img{
+    border: #8ff74b solid 4px;
+}
+
 a{
     color: skyblue;
 }
