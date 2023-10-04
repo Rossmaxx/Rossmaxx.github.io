@@ -11,10 +11,11 @@ body{
 
 button{
     background-color: #303030;
-    padding: 5px 15px;
+    color: whitesmoke;
+    padding: 10px 25px;
     margin-top: 10px;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 20px;
     border: 1px solid #eee;
 }
 
@@ -41,19 +42,19 @@ a:hover{
     background-size: cover;
     border: 4px outset black;
     padding: 1rem;
-    border-radius: 24px;
+    border-radius: 18px;
     margin: 0;
 }
 
 .mainbody{
-    max-width: 90%;
+    max-width: 95%;
     margin:0 auto;
     padding: 1rem;
 
     border: #eee;
     border-style: outset;
     border-width: 2px;
-    border-radius: 16px;
+    border-radius: 12px;
 
     background-image: url("images/background2.png");
     background-repeat: no-repeat;
@@ -100,7 +101,7 @@ a:hover{
 
 .socials-links{
     display: grid;
-    align-items: center;
+    align-items: left;
     grid-template-columns: auto auto auto;
     column-gap: auto;
 }
