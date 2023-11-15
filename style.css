@@ -32,6 +32,10 @@ i{
     color: whitesmoke;
 }
 
+ul{
+    padding-left: 1em;
+}
+
 a:visited{
     color: aquamarine;
 }
@@ -99,8 +103,8 @@ a:hover{
 
 .interests-and-skills{
     display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    align-items: left;
+    grid-template-columns: 1fr 1fr;
     column-gap: 4vw;
 }
 
