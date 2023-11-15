@@ -1,5 +1,5 @@
 html{
-    font-size:24px;
+    font-size: 2vw;
 }
 
 body{
@@ -12,15 +12,15 @@ body{
 button{
     background-color: #303030;
     color: whitesmoke;
-    padding: 10px 25px;
-    margin-top: 10px;
-    border-radius: 8px;
-    font-size: 20px;
-    border: 1px solid #eee;
+    padding: 1vw 1vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+    font-size: 2vw;
+    border: 0.25vw solid #eee;
 }
 
 img{
-    border: #8ff74b solid 4px;
+    border: #96f74b solid 0.25vw;
 }
 
 a{
@@ -43,10 +43,11 @@ a:hover{
     background-image: url("images/background1.jpg");
     background-attachment: fixed;
     position: center;
+    align-items: center;
     background-size: cover;
-    border: 4px outset black;
-    padding: 1rem;
-    border-radius: 18px;
+    border: 1vw outset black;
+    padding: 2vw;
+    border-radius: 2vw;
     margin: 0;
 }
 
@@ -57,8 +58,8 @@ a:hover{
 
     border: #eee;
     border-style: outset;
-    border-width: 2px;
-    border-radius: 12px;
+    border-width: 0.5vw;
+    border-radius: 2vw;
 
     background-image: url("images/background2.png");
     background-repeat: no-repeat;
@@ -73,8 +74,8 @@ a:hover{
     position: center;
     background-size: cover;
 
-    border: 4px outset black;
-    border-radius: 6px;
+    border: 0.5vw outset black;
+    border-radius: 1vw;
     padding: 0.25rem;
 }
 
@@ -85,22 +86,21 @@ a:hover{
 }
 
 .classphoto{
-    position:static;
-    border-radius: 20px;
+    border-radius: 1vw;
 }
 
 .about-class{
     display: grid;
     align-items: center;
     grid-template-columns: auto auto auto;
-    column-gap: 20px;
+    column-gap: 4vw;
 }
 
 .interests-and-skills{
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
+    column-gap: 4vw;
 }
 
 .socials-links{
