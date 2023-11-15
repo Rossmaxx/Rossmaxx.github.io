@@ -1,5 +1,5 @@
 html{
-    font-size: 2vw;
+    font-size: 0.9em;
 }
 
 body{
@@ -15,12 +15,13 @@ button{
     padding: 1vw 1vw;
     margin-top: 1vw;
     border-radius: 1vw;
-    font-size: 2vw;
+    font-size: 1em;
     border: 0.25vw solid #eee;
 }
 
 img{
     border: #96f74b solid 0.25vw;
+    max-width: 100%;
 }
 
 a{
@@ -117,11 +118,8 @@ ul.socials-list {
 @media all and (max-width: 1200px) {
     .portrait-image{display: none;}
     .me-para{margin-left: 0;}
-    p.me-para{font-size: 16px;}
     .classphoto{
         width: 90%;
         object-fit: contain;
     }
-    button{font-size: 24px;}
-    
 }
