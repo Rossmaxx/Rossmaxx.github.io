@@ -78,8 +78,6 @@ a:hover{
 
 .portrait-image{
     border-radius: 8px;
-    float: left;
-    margin: 0;
 }
 
 .about-class{
@@ -99,14 +97,10 @@ a:hover{
 .socials-links{
     display: grid;
     align-items: left;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto auto auto;
     column-gap: auto;
 }
 
 .me-para{
     margin-left: 0;
-}
-
-@media all and (max-width: 1200px) {
-    .portrait-image{display: none;}
 }
