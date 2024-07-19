@@ -38,11 +38,7 @@ a:hover{
 }
 
 .cheader{
-    background-image: url("images/background1.jpg");
-    background-attachment: fixed;
-    position: center;
-    align-items: center;
-    background-size: cover;
+    background-color: #101010;
     padding-left: 1vw;
     border: 0.25vw outset black;
     border-radius: 1vw;
@@ -64,11 +60,7 @@ a:hover{
 }
 
 .foot{
-    background-image: url("images/background1.jpg");
-    background-attachment: fixed;
-    position: center;
-    background-size: cover;
-
+    background-color: #101010;
     border: 0.25vw outset black;
     border-radius: 1vw;
     padding: 0.25rem;
