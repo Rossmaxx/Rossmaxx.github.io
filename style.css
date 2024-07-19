@@ -111,7 +111,10 @@ a:hover{
     column-gap: auto;
 }
 
+.me-para{
+    margin-left: 0;
+}
+
 @media all and (max-width: 1200px) {
     .portrait-image{display: none;}
-    .me-para{margin-left: 0;}
 }
