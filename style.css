@@ -100,7 +100,3 @@ a:hover{
     grid-template-columns: auto auto auto auto auto;
     column-gap: auto;
 }
-
-.me-para{
-    margin-left: 0;
-}
