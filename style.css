@@ -3,10 +3,8 @@ html{
 }
 
 body{
-    background: linear-gradient(to top, rgb(50, 50, 221), rgb(25, 195, 25));
-    background-attachment: fixed;
+    background: #303030;
     color: whitesmoke;
-    padding: 0;
 }
 
 button{
@@ -17,11 +15,6 @@ button{
     border-radius: 1vw;
     font-size: 1em;
     border: 0.25vw solid #eee;
-}
-
-img{
-    border: #96f74b solid 0.25vw;
-    max-width: 100%;
 }
 
 a{
@@ -50,9 +43,8 @@ a:hover{
     position: center;
     align-items: center;
     background-size: cover;
-    border: 1vw outset black;
-    padding: 2vw;
-    border-radius: 2vw;
+    border: 0.25vw outset black;
+    border-radius: 1vw;
     margin: 0;
 }
 
@@ -63,7 +55,7 @@ a:hover{
 
     border: #eee;
     border-style: outset;
-    border-width: 0.5vw;
+    border-width: 0.25vw;
     border-radius: 2vw;
 
     background-image: url("images/background2.png");
@@ -93,7 +85,7 @@ a:hover{
 .about-class{
     display: grid;
     align-items: center;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     column-gap: 4vw;
 }
 
