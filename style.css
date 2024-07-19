@@ -111,7 +111,7 @@ a:hover{
 .socials-links{
     display: grid;
     align-items: left;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     column-gap: auto;
 }
 
