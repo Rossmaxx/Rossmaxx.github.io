@@ -98,3 +98,9 @@ a:hover{
     grid-template-columns: auto auto auto auto auto;
     column-gap: auto;
 }
+
+@media (max-width: 600px){
+    .about-class{
+        grid-template-columns: auto;
+    }
+}
