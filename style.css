@@ -90,10 +90,6 @@ a:hover{
     margin: 0;
 }
 
-.classphoto{
-    border-radius: 1vw;
-}
-
 .about-class{
     display: grid;
     align-items: center;
@@ -115,15 +111,7 @@ a:hover{
     column-gap: auto;
 }
 
-ul.socials-list {
-    list-style-type: none;
-}
-
 @media all and (max-width: 1200px) {
     .portrait-image{display: none;}
     .me-para{margin-left: 0;}
-    .classphoto{
-        width: 90%;
-        object-fit: contain;
-    }
 }
