@@ -92,15 +92,25 @@ a:hover{
     column-gap: 4vw;
 }
 
+.socials-wrapper{
+    display: grid;
+    align-items: center;
+    grid-template-columns: max-content auto;
+}
+
 .socials-links{
     display: grid;
     align-items: left;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
     column-gap: auto;
 }
 
 @media (max-width: 600px){
     .about-class{
+        grid-template-columns: auto;
+    }
+
+    .socials-wrapper{
         grid-template-columns: auto;
     }
 }
