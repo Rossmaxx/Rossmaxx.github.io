@@ -17,6 +17,10 @@ button{
     border: 0.25vw solid #eee;
 }
 
+button:hover{
+    background-color: #490090;
+}
+
 a{
     color: skyblue;
 }
@@ -25,8 +29,9 @@ i{
     color: whitesmoke;
 }
 
-ul{
+p, ul{
     padding-left: 1em;
+    color: #ccc;
 }
 
 a:visited{
