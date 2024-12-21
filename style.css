@@ -48,7 +48,7 @@ h1{
 
 .cheader{
     background-color: #101010;
-    padding-left: 1vw;
+    text-align: center;
     border: 0.25vw outset black;
     border-radius: 1vw;
     margin: 0;
