@@ -86,12 +86,6 @@ a:hover{
 
 }
 
-.socials-wrapper{
-    display: grid;
-    align-items: center;
-    grid-template-columns: max-content auto;
-}
-
 .socials-links{
     display: grid;
     align-items: left;
