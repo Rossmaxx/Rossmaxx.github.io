@@ -33,6 +33,7 @@ img{
     border-radius: 8px;
     margin:auto;
     margin-top: 1rem;
+    border: 0.10vw outset limegreen;
 }
 
 p, ul{
@@ -100,6 +101,10 @@ a:hover{
 
 @media (max-width: 600px){
     .about-class{
+        grid-template-columns: auto;
+    }
+
+    .credentials{
         grid-template-columns: auto;
     }
 
