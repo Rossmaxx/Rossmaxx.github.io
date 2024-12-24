@@ -8,7 +8,7 @@ body{
 }
 
 button{
-    background-color: #303030;
+    background-color: #404040;
     color: whitesmoke;
     padding: 0.75vw 0.75vw;
     margin-top: 0.5vw;
@@ -62,10 +62,6 @@ h1{
     border-style: outset;
     border-width: 0.25vw;
     border-radius: 2vw;
-
-    background-image: url("images/honeycomb.jpg");
-    background-position: left;
-    background-size: cover;
 }
 
 .foot{
