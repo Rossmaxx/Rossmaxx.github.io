@@ -110,6 +110,10 @@ a:hover{
         grid-template-columns: auto;
     }
 
+    .interests-and-skills{
+        grid-template-columns: auto;
+    }
+
     .socials-wrapper{
         grid-template-columns: auto;
     }
