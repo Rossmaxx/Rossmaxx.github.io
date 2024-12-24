@@ -3,12 +3,12 @@ html{
 }
 
 body{
-    background: #303030;
+    background: #305030;
     color: whitesmoke;
 }
 
 button{
-    background-color: #404040;
+    background-color: green;
     color: whitesmoke;
     padding: 0.75vw 0.75vw;
     margin-top: 0.5vw;
@@ -42,33 +42,22 @@ a:hover{
     color: cadetblue;
 }
 
-h1{
-    padding: 0.25em;
-}
 
 .cheader{
-    background-color: #101010;
     text-align: center;
-    border: 0.25vw outset black;
-    border-radius: 1vw;
-    margin: 0;
 }
 
 .mainbody{
     margin:0 auto;
     padding: 1rem;
-
-    border: #eee;
-    border-style: outset;
-    border-width: 0.25vw;
-    border-radius: 2vw;
 }
 
-.foot{
-    background-color: #101010;
-    border: 0.25vw outset black;
+.content-wrap{
+    background-color: #102010;
+    border: 0.10vw outset limegreen;
     border-radius: 1vw;
-    padding: 0.25rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
 }
 
 .about-class{
