@@ -38,8 +38,11 @@ img{
     border: 0.10vw outset #105010;
 }
 
+p{
+    white-space: pre-line;
+}
+
 p, ul{
-    padding-left: 1em;
     color: #ccc;
 }
 
