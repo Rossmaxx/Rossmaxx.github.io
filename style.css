@@ -18,6 +18,11 @@ button:hover{
     cursor: pointer;
 }
 
+button > a {
+    color: whitesmoke !important;
+    text-decoration: none;
+}
+
 a{
     color: skyblue;
 }
