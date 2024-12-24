@@ -78,7 +78,7 @@ h1{
 .about-class{
     display: grid;
     align-items: center;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     column-gap: 4vw;
 }
 
