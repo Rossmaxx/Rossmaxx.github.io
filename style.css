@@ -29,6 +29,12 @@ i{
     color: whitesmoke;
 }
 
+img{
+    border-radius: 8px;
+    margin:auto;
+    margin-top: 1rem;
+}
+
 p, ul{
     padding-left: 1em;
     color: #ccc;
@@ -74,6 +80,11 @@ a:hover{
     column-gap: 4vw;
 }
 
+.credentials{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 .socials-wrapper{
     display: grid;
     align-items: center;
@@ -83,7 +94,7 @@ a:hover{
 .socials-links{
     display: grid;
     align-items: left;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     column-gap: auto;
 }
 
