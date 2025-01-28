@@ -54,6 +54,12 @@ a:hover{
     color: cadetblue;
 }
 
+/*for contact form*/
+iframe{
+    width: 90vw;
+    height: 800px;
+    border: none;
+}
 
 .cheader{
     text-align: center;
