@@ -70,7 +70,7 @@ iframe{
     padding: 1rem;
 }
 
-.content-wrap{
+article, .content-wrap{
     background-color: #102010;
     border: 0.10vw outset #105010;
     border-radius: 1vw;
