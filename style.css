@@ -103,8 +103,12 @@ article, .content-wrap{
 .socials-links{
     display: grid;
     align-items: left;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     column-gap: 2rem;
+}
+
+.socials-button{
+    display: contents;
 }
 
 @media (max-width: 600px){
@@ -117,10 +121,6 @@ article, .content-wrap{
     }
 
     .interests-and-skills{
-        grid-template-columns: auto;
-    }
-
-    .socials-wrapper{
         grid-template-columns: auto;
     }
 }
