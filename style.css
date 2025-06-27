@@ -111,7 +111,7 @@ article, .content-wrap{
     display: contents;
 }
 
-@media (max-width: 600px){
+@media (max-width: 720px){
     .about-class{
         grid-template-columns: auto;
     }
